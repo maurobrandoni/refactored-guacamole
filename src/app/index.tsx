@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
 
+
 export default function Index() {
   return (
     <View
@@ -7,9 +8,10 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        padding: 20,
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text style={{ fontSize: 24, marginBottom: 20 }}>Dog Breeds</Text>
     </View>
   );
 }
